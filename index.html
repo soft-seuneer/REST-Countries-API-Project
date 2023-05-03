@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESTAPi Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <i class="ri-home-line"></i>
+      <h1>WHERE IN THE WORLD</h1>
+      <button class="toggle"><i class="bx bx-moon"></i> Dark mode</button>
+    </div>
+
+    <div class="container">
+      <div class="controls">
+        <i class="bx bx-search"></i>
+        <input type="search" class="search" placeholder="search the country" />
+      </div>
+      
+      <select name="select-countries" id="select-countries">
+        <option value="All">All</option>
+        <option value="Africa">Africa</option>
+        <option value="South America">South America</option>
+        <option value="North America">North America</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Australia">Australia</option>
+      </select>
+    </div>
+
+    <div class="countries"> 
+      <div class="country">
+        <div class="country-img">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="country-details">
+          <h5>Afghan</h5>
+          <p><strong>Population</strong>40.1 million</p>
+          <p><strong>Region</strong>Asia</p>
+          <p><strong>Capital</strong>Kabul</p>
+        </div>
+      </div>
+      <div class="country">
+        <div class="country-img">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Flag_of_France_%28lighter_variant%29.svg/1024px-Flag_of_France_%28lighter_variant%29.svg.png"
+            alt=""
+          />
+        </div>
+
+        <div class="country-details">
+          <h5>France</h5>
+          <p><strong>Population</strong>67.75 million</p>
+          <p><strong>Region</strong>Europe</p>
+          <p><strong>Capital</strong>Paris</p>
+        </div>
+      </div>
+      <div class="country">
+        <div class="country-img">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="country-details">
+          <h5>Australia</h5>
+          <p><strong>Population</strong>25.69 million</p>
+          <p><strong>Region</strong>Australia</p>
+          <p><strong>Capital</strong>Canberra</p>
+        </div>
+      </div>
+      <div class="country">
+        <div class="country-img">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Nigeria_%28state%29.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="country-details">
+          <h5>Nigeria</h5>
+          <p><strong>Population</strong>213.4 million</p>
+          <p><strong>Region</strong>Africa</p>
+          <p><strong>Capital</strong>Abuja</p>
+        </div>
+      </div>
+      
+    
+      
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
